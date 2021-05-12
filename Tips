@@ -1,0 +1,8 @@
+#QGIS tip of the day. Use the following expression in your Atlas CRS exrpession to create a dynamic ortographic projection:
+'PROJ:'
+ || 
+'+proj=laea +lon_0='  || 
+x( @atlas_geometry ) || 
+' +lat_0='  || 
+y( @atlas_geometry ) || 
+' +datum=WGS84 +units=m +no_defs'
