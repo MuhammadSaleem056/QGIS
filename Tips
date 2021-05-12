@@ -6,3 +6,5 @@ x( @atlas_geometry ) ||
 ' +lat_0='  || 
 y( @atlas_geometry ) || 
 ' +datum=WGS84 +units=m +no_defs'
+
+courtesy: https://twitter.com/tjukanov
